@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.accord{
+    font-size: 10px;
+    border: 0.5px rgba(128, 128, 128, 0.829)  solid;
+    cursor: pointer;
+    margin-right: 670px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.accord-text{
+    background-color: rgba(185, 255, 255, 0.822);
+    border: 0.5px rgba(128, 128, 128, 0.829)  solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 670px;
+}
+
+.accord-text-active{
+    display: none;
+}
+
+.accord-text-active-2{
+    display: none;
+}
+
+.accord-text-active-3{
+    display: none;
+}
+
+.accord-text-active-4{
+    display: none;
+}
+
+.button{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 0.5px;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: 0.2s;
+    
+}
+
+.button:hover{
+    background-color: rgb(56, 56, 56);
+    transition: 0.5s;
+}
